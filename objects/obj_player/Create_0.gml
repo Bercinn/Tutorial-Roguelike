@@ -26,4 +26,7 @@ sprites[faces.up_left]        = spr_player_up_left;
 sprites[faces.right]          = spr_player_right;
 sprites[faces.left]           = spr_player_left;
 
+xscale = 1;
+yscale = 1;
+
 inputs = {};

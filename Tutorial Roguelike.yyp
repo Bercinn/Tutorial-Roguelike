@@ -36,8 +36,13 @@
   },
   "name":"Tutorial Roguelike",
   "resources":[
+    {"id":{"name":"obj_blur_controller","path":"objects/obj_blur_controller/obj_blur_controller.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"id":{"name":"Init","path":"scripts/Init/Init.yy",},},
+    {"id":{"name":"shd_two_pass_blur","path":"shaders/shd_two_pass_blur/shd_two_pass_blur.yy",},},
+    {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_player_down_left","path":"sprites/spr_player_down_left/spr_player_down_left.yy",},},
     {"id":{"name":"spr_player_down_right","path":"sprites/spr_player_down_right/spr_player_down_right.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},

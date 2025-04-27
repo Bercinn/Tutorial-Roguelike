@@ -3,6 +3,9 @@ inputs[$ "left"]     = keyboard_check(ord("A"));
 inputs[$ "down"]     = keyboard_check(ord("S"));
 inputs[$ "right"]    = keyboard_check(ord("D"));
 
+xscale = lerp(xscale, 1, 0.1);
+yscale = lerp(yscale, 1, 0.1);
+
 if(inputs.down) face = faces.down;    
 if(inputs.up) face = faces.up;
 if(inputs.right) face = faces.right;
